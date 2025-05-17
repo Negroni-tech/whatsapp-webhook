@@ -1,6 +1,8 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
+
+// Render asigna el puerto en process.env.PORT
 const port = process.env.PORT || 3000;
 
 app.use(express.json());
